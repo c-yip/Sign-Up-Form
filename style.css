@@ -8,7 +8,7 @@ body {
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
         "logo header"
-        "logo content"
+        "logo form"
         "logo footer"
     ;
 }
@@ -23,10 +23,16 @@ body {
     grid-area: header;
 }
 
-.content {
-    grid-area: cont;
+form {
+    grid-area: form;
 }
 
 .footer {
     grid-area: footer;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
 }
