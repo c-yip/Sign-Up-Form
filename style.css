@@ -3,6 +3,29 @@ html, body {
     height: 100%;
 }
 
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "logo header"
+        "logo content"
+        "logo footer"
+    ;
+}
+
 .logo {
     background-image: url('../background.jpg');
+    grid-area: logo;
+}
+
+.header {
+    grid-area: header;
+}
+
+.content {
+    grid-area: cont;
+}
+
+.footer {
+    grid-area: footer;
 }
