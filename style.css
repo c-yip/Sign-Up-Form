@@ -119,3 +119,11 @@ button:hover {
     color: #596D48;
     text-decoration: none;
 }
+
+input {
+    width: 339px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
