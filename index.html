@@ -14,49 +14,47 @@
         </p>
     </div>
     
-    <div class="header">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-        <p>You <em>know</em> you want to.</p>
+    <div class="wrapper">
+        <div class="header">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <form action="/my-handling-form-page" method="post">
+            <legend>Let's do this!</legend>
+            <ul>
+                <li>
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" name="user_first_name">
+                </li>
+        
+                <li>
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="last_name" id="user_last_name">
+                </li>
+        
+                <li>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="user_email" id="email">
+                </li>
+        
+                <li>
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="number" name="user_phone" id="phone">
+                </li>
+        
+                <li>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="user_password" id="password">
+                </li>
+        
+                <li>
+                    <label for="password_confirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="password_confirm" id="password_confirm">
+                </li>
+            </ul>
+            <button type="submit">Create Account</button>
+        </form>
+        <p class="footer">Already have an account? <span><a href="https://github.com/c-yip">Log in</a></span></p>
     </div>
-
-    <form action="/my-handling-form-page" method="post">
-        <legend>Let's do this!</legend>
-
-        <ul>
-            <li>
-                <label for="first_name">FIRST NAME</label>
-                <input type="text" id="first_name" name="user_first_name">
-            </li>
-            
-            <li>
-                <label for="last_name">LAST NAME</label>
-                <input type="text" name="last_name" id="user_last_name">
-            </li>
-            
-            <li>
-                <label for="email">EMAIL</label>
-                <input type="email" name="user_email" id="email">
-            </li>
-            
-            <li>
-                <label for="phone">PHONE NUMBER</label>
-                <input type="number" name="user_phone" id="phone">
-            </li>
-            
-            <li>
-                <label for="password">PASSWORD</label>
-                <input type="password" name="user_password" id="password">
-            </li>
-            
-            <li>
-                <label for="password_confirm">CONFIRM PASSWORD</label>
-                <input type="password" name="password_confirm" id="password_confirm">
-            </li>
-        </ul>
-
-        <button type="submit">Create Account</button>
-    </form>
-
-    <p class="footer">Already have an account? <span><a href="https://github.com/c-yip">Log in</a></span></p>
 </body>
 </html>

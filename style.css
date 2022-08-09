@@ -6,26 +6,24 @@ html, body {
 body {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-areas:
-        "logo header"
-        "logo form"
-        "logo footer"
-    ;
 }
 
 .logo {
     background-image: url('../background.jpg');
     background-size: cover;
-    grid-area: logo;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header {
-    grid-area: header;
     padding: 30px;
 }
 
 form {
-    grid-area: form;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -33,7 +31,6 @@ form {
 }
 
 .footer {
-    grid-area: footer;
     padding: 30px;
 }
 
