@@ -80,9 +80,6 @@ form {
     gap: 3rem;
 }
 
-.footer {
-}
-
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -124,6 +121,27 @@ input {
     width: 339px;
     padding: 12px 20px;
     margin: 8px 0;
-    border: 1px solid #ccc;
+    border: 1px solid #E5E7EB;
     border-radius: 4px;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 1px solid blue;
+    box-shadow: 3px 5px 4px #888888;
+}
+
+input[type=email]:focus {
+    border: 1px solid blue;
+    box-shadow: 3px 5px 4px #888888;
+}
+
+input[type=tel]:focus {
+    border: 1px solid blue;
+    box-shadow: 3px 5px 4px #888888;
+}
+
+input[type=password]:focus {
+    border: 1px solid blue;
+    box-shadow: 3px 5px 4px #888888;
 }
