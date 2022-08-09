@@ -100,3 +100,22 @@ input, label {
 legend {
     font-size: 2rem;
 }
+
+button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 15px 55px 15px 55px;
+    box-shadow: 5px 10px 8px #888888;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+  
+.login {
+    color: #596D48;
+    text-decoration: none;
+}
