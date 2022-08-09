@@ -15,6 +15,7 @@ body {
 
 .logo {
     background-image: url('../background.jpg');
+    background-size: cover;
     grid-area: logo;
 }
 
